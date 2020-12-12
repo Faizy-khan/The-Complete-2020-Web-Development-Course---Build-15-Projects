@@ -1,0 +1,187 @@
+#main
+{   
+	height: 1250px;
+	width: 1054px;
+	margin:auto;
+}
+#upper
+{
+	
+	height: 100px;
+	margin-top: 25px;
+    
+}
+#heading a
+{
+	color:#861BBF;
+	text-decoration: none;
+	font-weight: normal;
+	font-size: 50px;
+	font-weight: 100;
+	line-height: 75px;
+
+}
+#heading{
+	margin-left: 0px;
+	float-left;
+	height: 100px;
+	display: inline;
+}
+#box
+{
+	float:right;
+	padding: 25px 25px;
+	background:linear-gradient(#E0F2B0,#B8E956);
+	margin-top: 10px;
+	height: 17px;
+	width: 400px;
+}
+.search
+{
+	margin-left: 60px;
+	position: relative;
+	top:-9px;
+	border: none;
+	margin-right: 10px;
+	background-color: #A751D6;
+	color:white;	font-weight: bold;
+	font-size: 15px;
+	padding: 2px 7px;
+	height: 27px;
+	width: 120px;
+}
+.search-box	
+{	position: relative;
+	top: -7px;
+	width: 200px;
+	height: 25px;
+	background: url(images/search.png) no-repeat right center;
+	background-color: white;
+	border:1px solid #D9B350 ;
+
+}
+
+
+
+#nav
+{   
+ 	height: 70px;
+	background: linear-gradient(#F6F38D,#D6D637)
+}
+#nav ul li
+{
+ margin-top: 10px;
+ font-size: 20px;
+ border-right: 1px solid black;
+ list-style: none;
+ float: left;
+ padding: 10px;
+ font-weight: bold;
+ 
+}
+#nav ul li a
+{
+	text-decoration: none;
+	padding: 0px 20px;
+	color:#5d12e7;
+	font-weight: normal;
+	line-height: 10px;	
+	transition: font-size 0.5s ease;
+	text-transform: uppercase;
+}
+#nav ul li a#firstlink,#nav ul li a:hover
+{
+	font-size:22px;
+	color:#B314DB;
+	font-weight: bold;
+}
+#nav ul #lastlink
+{
+	border-right: none;
+}
+
+
+
+
+#content h1
+{   
+	font-size:40px;
+	font-weight: normal;
+	color: #316901;
+}
+#content
+{	
+
+	margin-top: 18px;
+	padding: 40px 30px;
+	background: linear-gradient(#E4F2B9,#B8E954);
+}
+#content p
+{  
+	text-align: justify;
+	margin-top: 40px;
+	font-size: 25px;
+	color:#628F19;
+}
+#leftdiv
+{
+	float:left;
+
+}
+#leftdiv ul li
+{
+	list-style-image: url(images/arrow.png);
+	margin-left: 25px;
+
+}
+#rightdiv
+{
+	float:right;
+
+}
+#rightdiv ul li
+{   
+	margin-left: 20px;
+	list-style-image: url(images/tick.png);
+	line-height: 50px;
+}
+.divv
+{
+	height: 550px;
+	border: 1px solid #BAF46F;
+	width: 500px;
+	border-radius: 20px; 
+	margin-top: 15px;	
+}
+.divv h2
+{
+	color:#B314DB;
+	margin-left: 25px;
+	font-size: 30px;
+	padding: 18px 10px;
+}
+
+.divv ul li a
+{
+	color:#5d12e7;
+	font-size: 20px;
+	line-height: 35px;
+	list-style: none;
+   text-decoration: none;
+   transition: font-size 0.5s ease;
+}
+.divv ul li a:hover
+{
+	font-size: 25px;
+	color: #B314DB;
+}
+ footer
+{	
+	display: inline-block;
+	width: 100%;
+	margin-top: 40px;
+	padding:35px 0px 35px 15px;
+	clear:both;
+	background: linear-gradient(#F6F38D,#D6D637);
+}
+ 
